@@ -15,16 +15,23 @@
             <label>Insira seu e-mail para receber mais informações sobre a competição</label><br>    
             <input type="email" name="" id="email">
         </form>
+        <form id="temcerteza">
+            <div>
+                <label>Tem certeza?</label>
+            </div>
+        </form>
         <div>
-            <button class="Sim" onclick="mudarDisplay(event)">Sim</button>
-            <button class="Nao" onclick="mudarDisplay(event)">Nao</button>
+            <button class="Sim" onclick="mudarDisplay()">Sim</button>
+            <button class="Nao" onclick="mudarDisplay()">Nao</button>
         </div>
     </div>
     <script>
-        function mudarDisplay(event) {
-            event.preventDefault();
+        function mudarDisplay() {
             document.getElementById('formUm').style.display = 'none';
             document.getElementById('formDois').style.display = 'block';
+        }
+        function certeza {
+            document.getElementById('temcerteza').style.display = 'block';
         }
     </script>
 </body>
