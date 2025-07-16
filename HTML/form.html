@@ -9,30 +9,49 @@
 <body>
     <div id="forms">
         <form id="formUm">
-            <label for="pergunta" class="pergunta">Você conhece o mundial de clubes?</label><br>
+            <label for="pergunta" class="pergunta">Você conhece o mundial de clubes?</label>
+            <br>
         </form>
         <form id="formDois">
-            <label>Insira seu e-mail para receber mais informações sobre a competição</label><br>    
-            <input type="email" name="" id="email">
+            <label>Quer saber mais sobre?</label>
+            <br>    
         </form>
-        <form id="temcerteza">
+        <form id="tem_certeza">
             <div>
                 <label>Tem certeza?</label>
             </div>
         </form>
         <div>
-            <button class="Sim" onclick="mudarDisplay()">Sim</button>
-            <button class="Nao" onclick="mudarDisplay()">Nao</button>
+            <button class="Sim" onclick="mudarDisplay()" id="btn">Sim</button>
+            <button class="Nao" onclick="certeza()" >Nao</button>
         </div>
     </div>
     <script>
         function mudarDisplay() {
             document.getElementById('formUm').style.display = 'none';
             document.getElementById('formDois').style.display = 'block';
+            if (document.getElementById('tem_certeza').style.display = 'block') {
+                document.getElementById('tem_certeza').style.display = 'none';
+            }
+            if (document.getElementById('formDois').style.display = 'block') {
+                document.getElementById('btn').setAttribute('onclick', 'redirecionar()');
+            }
         }
-        function certeza {
-            document.getElementById('temcerteza').style.display = 'block';
+        function certeza() {
+            if (document.getElementById('tem_certeza').style.display = 'none') {
+                document.getElementById('formDois').style.display = 'none';
+                document.getElementById('tem_certeza').style.display = 'block';
+                document.getElementById('formUm').style.display = 'none';
+            } else {
+                document.getElementById('formDois').style.display = 'block';
+                document.getElementById('tem_certeza').style.display = 'none';
+                document.getElementById('formUm').style.display = 'none';
+            }
         }
+        function redirecionar() {
+            window.location.href = 'index.html';
+        }
+        
     </script>
 </body>
 </html>
