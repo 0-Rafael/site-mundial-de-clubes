@@ -4,14 +4,19 @@
 }
 
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background-color: #151514;
     color: goldenrod;
     height: 100vh;
 }
-
+#link_fuleiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -40,17 +45,18 @@ nav ul li a:hover{
     text-decoration: underline;
     background-color: goldenrod;
     color: #151514;
-
 }
 #Taca {
     text-align: center;
 }
 #Taca h2 {
     position: relative;
-    left: -200px;
+    left: -150px;
 }
 #Taca img {
     max-width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 section {
     font-weight: 800;
@@ -100,4 +106,7 @@ h1 {
 }
 #tem_certeza {
     display: none;
+}
+p {
+    height: 300px;
 }
