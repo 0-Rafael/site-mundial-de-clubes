@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <div id="forms">
         <form id="formUm">
-            <label for="pika">Você conhece o mundial de clubes?</label><br>
-            <button class="Sim" onclick="mudarDisplay()">Sim</button>
-            <button class="Nao">Nao</button>
+            <label for="pergunta" class="pergunta">Você conhece o mundial de clubes?</label><br>
         </form>
-        <form action="" id="formDois">
-            <label for="">Insira seu e-mail para receber mais informações sobre a competição</label><br>    
+        <form id="formDois">
+            <label>Insira seu e-mail para receber mais informações sobre a competição</label><br>    
             <input type="email" name="" id="email">
         </form>
+        <div>
+            <button class="Sim" onclick="mudarDisplay(event)">Sim</button>
+            <button class="Nao" onclick="mudarDisplay(event)">Nao</button>
+        </div>
     </div>
+    <script>
+        function mudarDisplay(event) {
+            event.preventDefault();
+            document.getElementById('formUm').style.display = 'none';
+            document.getElementById('formDois').style.display = 'block';
+        }
+    </script>
 </body>
 </html>

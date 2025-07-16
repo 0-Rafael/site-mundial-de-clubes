@@ -62,9 +62,8 @@ section {
 h1 {
     margin-top: 20px;
 }
-.pergunta {
-    display: none;
-}
+/* .pergunta {
+    /* display: none; */
 #forms {
     text-align: center;
 }
@@ -97,5 +96,5 @@ h1 {
 
 }
 #formDois {
-    visibility: hidden;
+    display: none;
 }
