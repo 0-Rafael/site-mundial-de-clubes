@@ -25,5 +25,5 @@ function certeza() {
     }
 }
 function redirecionar() {
-    window.location.href = 'index.html';
+    window.location.href = 'home.html';
 }
