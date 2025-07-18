@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
-<body>
+<body id="forms-um">
     <div id="forms">
         <form id="formUm">
             <label for="pergunta" class="pergunta">Você conhece o mundial de clubes?</label>
@@ -26,31 +26,8 @@
             <button class="Nao" onclick="certeza()" >Nao</button>
         </div>
     </div>
-    <script>
-        function mudarDisplay() {
-            document.getElementById('formUm').style.display = 'none';
-            document.getElementById('formDois').style.display = 'block';
-            if (document.getElementById('tem_certeza').style.display = 'block') {
-                document.getElementById('tem_certeza').style.display = 'none';
-            }
-            if (document.getElementById('formDois').style.display = 'block') {
-                document.getElementById('btn').setAttribute('onclick', 'redirecionar()');
-            }
-        }
-        function certeza() {
-            if (document.getElementById('tem_certeza').style.display = 'none') {
-                document.getElementById('formDois').style.display = 'none';
-                document.getElementById('tem_certeza').style.display = 'block';
-                document.getElementById('formUm').style.display = 'none';
-            } else {
-                document.getElementById('formDois').style.display = 'block';
-                document.getElementById('tem_certeza').style.display = 'none';
-                document.getElementById('formUm').style.display = 'none';
-            }
-        }
-        function redirecionar() {
-            window.location.href = 'index.html';
-        }
+    <script src="../JS/main.js">
+        
         
     </script>
 </body>
