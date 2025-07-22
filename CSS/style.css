@@ -140,6 +140,7 @@ td {
 #numero_ver {
     background-color: #ff0000;
 }
+<<<<<<< HEAD
 #oitavas, #quartas {
     display: flex;
     justify-content: center;
@@ -189,4 +190,18 @@ table {
     display: inline-block;
     position: relative;
     left: 55%;
+=======
+#semi table {
+    width: 400px;
+    height: 20px;
+}
+#final table {
+    width: 400px;
+    height: 20px;
+}
+#final , #semi , #oitavas {
+    display: flex;
+    justify-content: center;
+    
+>>>>>>> 523b2fa9bc56b953932aa987ac73892a0e1039bd
 }
