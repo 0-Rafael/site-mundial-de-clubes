@@ -6,7 +6,8 @@ const botao = document.getElementById('btn');
 const quartas = document.getElementById('quartas');
 const oitavas = document.getElementById('oitavas');
 const semi = document.getElementById("semi");
-const final = document.getElementById("final")
+const final = document.getElementById("final");
+
 function mudarDisplay() {
     formUm.style.display = 'none';
     formDois.style.display = 'block';
@@ -32,8 +33,10 @@ function redirecionar() {
     window.location.href = 'home.html';
 }
 function moverdireita() {
-    oitavas.style.display = 'none';
-    quartas.style.display = 'flex';
+    if (oitavas.style.display = 'flex') {
+        oitavas.style.display = 'none'
+        quartas.style.display = 'flex'
+    }
     if(quartas.style.display = 'flex') {
         semi.style.display = 'flex'
         quartas.style.display = 'none'
@@ -41,5 +44,19 @@ function moverdireita() {
     if (semi.style.display = 'flex') {
         semi.style.display = 'none'
         final.style.display = 'flex'
+    }
+}
+function moveresquerda() {
+    if (quartas.style.display = 'flex') {
+        quartas.style.display = 'none'
+        oitavas.style.display = 'flex'
+    }
+    if (semi.style.display = 'flex') {
+        semi.style.display = 'none'
+        quartas.style.display = 'flex'
+    }
+    if (final.style.display = 'flex') {
+        final.style.display = 'none'
+        semi.style.display = 'flex'
     }
 }

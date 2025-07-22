@@ -156,7 +156,7 @@ table {
 #botao1, #botao2 {
     cursor: pointer;
     display: flex;
-    background-color: slateblue;
+    background-image: url("../IMGS/11391216-icone-de-seta-amarela-para-a-direita-vetor.jpgS");
     border: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -180,16 +180,11 @@ table {
     position: relative;
     left: ;
 } */
-#botao1 {
-    display: inline-block;
-    position: relative;
-    left: 38%;
-}
-#botao2 {
-    display: inline-block;
-    position: relative;
-    left: 55%;
-}
-#quartas, #semi {
+#quartas, #semi, #final {
     display: none;
+}
+#icon {
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
 }
