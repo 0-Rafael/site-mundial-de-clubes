@@ -3,6 +3,10 @@ const formUm = document.getElementById('formUm');
 const formDois = document.getElementById('formDois');
 const tem_certeza = document.getElementById('tem_certeza');
 const botao = document.getElementById('btn');
+const quartas = document.getElementById('quartas');
+const oitavas = document.getElementById('oitavas');
+const semi = document.getElementById("semi");
+const final = document.getElementById("final")
 function mudarDisplay() {
     formUm.style.display = 'none';
     formDois.style.display = 'block';
@@ -27,6 +31,7 @@ function certeza() {
 function redirecionar() {
     window.location.href = 'home.html';
 }
-function moveresquerda() {
-    const oitavas = document.getElementById('')
+function moverdireita() {
+    oitavas.style.display = 'none';
+    quartas.style.display = 'flex';
 }
