@@ -34,4 +34,12 @@ function redirecionar() {
 function moverdireita() {
     oitavas.style.display = 'none';
     quartas.style.display = 'flex';
+    if(quartas.style.display = 'flex') {
+        semi.style.display = 'flex'
+        quartas.style.display = 'none'
+    }
+    if (semi.style.display = 'flex') {
+        semi.style.display = 'none'
+        final.style.display = 'flex'
+    }
 }
