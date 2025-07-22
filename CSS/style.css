@@ -107,10 +107,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-table {
-    width: 400px;
-    height: 200px;
-}
 table tr td {
     font-size: 1.5rem;
     font-weight: 900;
@@ -143,4 +139,54 @@ td {
 }
 #numero_ver {
     background-color: #ff0000;
+}
+#oitavas, #quartas {
+    display: flex;
+    justify-content: center;
+}
+
+#oitavas table, #quartas table {
+    width: 400px;
+    height: 20px;
+}
+table {
+    width: 400px;
+    height: 20px;
+}
+#botao1, #botao2 {
+    cursor: pointer;
+    display: flex;
+    background-color: slateblue;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    
+}
+/* #botao1:hover, #botao2:hover {
+    background-color: rgb(50, 37, 133);
+}
+#btnnn {
+    display: flex;
+    justify-content: space-between;
+}
+#botao1 {
+    position: relative;
+    left: ;
+} */
+#botao1 {
+    display: inline-block;
+    position: relative;
+    left: 38%;
+}
+#botao2 {
+    display: inline-block;
+    position: relative;
+    left: 55%;
 }

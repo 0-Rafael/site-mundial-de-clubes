@@ -27,3 +27,6 @@ function certeza() {
 function redirecionar() {
     window.location.href = 'home.html';
 }
+function moveresquerda() {
+    const oitavas = document.getElementById('')
+}
