@@ -144,3 +144,16 @@ td {
 #numero_ver {
     background-color: #ff0000;
 }
+#semi table {
+    width: 400px;
+    height: 20px;
+}
+#final table {
+    width: 400px;
+    height: 20px;
+}
+#final , #semi , #oitavas {
+    display: flex;
+    justify-content: center;
+    
+}
