@@ -140,7 +140,7 @@ td {
 #numero_ver {
     background-color: #ff0000;
 }
-#oitavas, #quartas, #semi {
+#oitavas, #quartas, #semi, #final{
     display: flex;
     justify-content: center;
 }
