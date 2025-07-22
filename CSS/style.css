@@ -123,7 +123,7 @@ table tr td {
 }
 #tabelas {
     position: absolute;
-    top: 110%;
+    top: 135%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -137,4 +137,10 @@ td {
 }
 #fttbl {
     width: 25px;
+}
+#numero {
+    background-color: #51a81e;
+}
+#numero_ver {
+    background-color: #ff0000;
 }
