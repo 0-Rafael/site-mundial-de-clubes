@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-      </svg>
+      </svg> -->
     <style>
         header h1 {
             font-family: 'Playfair Display';
@@ -32,7 +32,12 @@
             </nav>
         </header>
     </div>
-    <div>
+    <div id="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" onclick="moverdireita()">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+    </div>
+    <div id="botoes">
         <button onclick="moverdireita()" id="avancar">Clique aqui</button>
         <button onclick="moveresquerda()" id="voltar">Clique aqui</button>
     </div>
@@ -87,11 +92,28 @@
     <div id="quartas">
         <table>
             <tr>
-                <td><h2>Quartas</h2></td>
+                <td colspan="3"><h2>Quartas</h2></td>
             </tr>
             <tr>
-                <td><img src="../IMGS/boca.png" alt="" id="fttbl">a</td>
+                <td><img src="../IMGS/porco.png" alt="" id="fttbl">Palmeiras</td>
+                <td>1 - 2</td>
+                <td><img src="../IMGS/chelsea.png" alt="" id="fttbl">Chelsea</td>
             </tr>
+            <tr>
+                <td><img src="../IMGS/flu.png" alt="" id="fttbl">Fluminense</td>
+                <td>2 - 1</td>
+                <td><img src="../IMGS/hilal.png" alt="" id="fttbl">Al hilal</td>
+            </tr>
+            <tr>
+                <td><img src="../IMGS/psg.png" alt="" id="fttbl">PSG</td>
+                <td>2 - 0</td>
+                <td><img src="../IMGS/bayern.png" alt="" id="fttbl">Bayern</td>
+            </tr>
+            <tr>
+                <td><img src="../IMGS/real.png" alt="" id="fttbl">R Madrid</td>
+                <td>3 - 2</td>
+                <td><img src="../IMGS/bvb.png" alt="" id="fttbl">B. Dortmund</td>
+            </td>
         </table>
     </div>
     <div id="semi">
