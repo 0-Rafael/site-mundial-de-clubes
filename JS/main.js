@@ -64,7 +64,7 @@ function mover_quartas_v() {
 function mover_semi_v() {
     semi.style.display = 'none'
     quartas.style.display = 'flex'
-    botao_avancar.setAttribute('onclick', 'mover_semi_a()')
+    botao_avancar.setAttribute('onclick', 'mover_quartas_a()')
     botao_voltar.setAttribute('onclick', 'mover_quartas_v()')
 }
 function mover_final_v() {
