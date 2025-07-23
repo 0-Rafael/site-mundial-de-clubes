@@ -140,10 +140,10 @@ td {
 #numero_ver {
     background-color: #ff0000;
 }
-#oitavas, #quartas, #semi, #final{
+/* #oitavas, #quartas, #semi, #final{
     display: flex;
     justify-content: center;
-}
+} */
 
 #oitavas table, #quartas table {
     width: 400px;
@@ -156,7 +156,7 @@ table {
 #botao1, #botao2 {
     cursor: pointer;
     display: flex;
-    background-image: url("../IMGS/11391216-icone-de-seta-amarela-para-a-direita-vetor.jpgS");
+    /* background-image: url("../IMGS/11391216-icone-de-seta-amarela-para-a-direita-vetor.jpgS"); */
     border: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -182,9 +182,15 @@ table {
 } */
 #quartas, #semi, #final {
     display: none;
+    justify-content: center;
 }
 #icon {
     position: absolute;
     left: 50%;
     cursor: pointer;
 }
+#oitavas {
+    display: flex;
+    justify-content: center;
+}
+

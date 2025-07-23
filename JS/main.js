@@ -7,6 +7,8 @@ const quartas = document.getElementById('quartas');
 const oitavas = document.getElementById('oitavas');
 const semi = document.getElementById("semi");
 const final = document.getElementById("final");
+const botao_avancar = document.getElementById("avancar")
+const botao_voltar = document.getElementById("voltar")
 
 function mudarDisplay() {
     formUm.style.display = 'none';
@@ -33,30 +35,41 @@ function redirecionar() {
     window.location.href = 'home.html';
 }
 function moverdireita() {
-    if (oitavas.style.display = 'flex') {
-        oitavas.style.display = 'none'
-        quartas.style.display = 'flex'
-    }
-    if(quartas.style.display = 'flex') {
-        semi.style.display = 'flex'
-        quartas.style.display = 'none'
-    }
-    if (semi.style.display = 'flex') {
-        semi.style.display = 'none'
-        final.style.display = 'flex'
-    }
+    oitavas.style.display = 'none'
+    quartas.style.display = 'flex'
+    botao_avancar.setAttribute('onclick', 'mover_quartas_a()')
+    botao_voltar.setAttribute('onclick', 'mover_quartas_v()')
 }
+
 function moveresquerda() {
-    if (quartas.style.display = 'flex') {
-        quartas.style.display = 'none'
-        oitavas.style.display = 'flex'
-    }
-    if (semi.style.display = 'flex') {
-        semi.style.display = 'none'
-        quartas.style.display = 'flex'
-    }
-    if (final.style.display = 'flex') {
-        final.style.display = 'none'
-        semi.style.display = 'flex'
-    }
+    oitavas.style.display = 'flex'
+}
+function mover_quartas_a() {
+    quartas.style.display = 'none'
+    semi.style.display = 'flex'
+    botao_avancar.setAttribute('onclick', 'mover_semi_a()')
+    botao_voltar.setAttribute('onclick', 'mover_semi_v()')
+}
+
+function mover_semi_a() {
+    semi.style.display = 'none'
+    final.style.display = 'flex'
+    botao_voltar.setAttribute('onclick', 'mover_final_v()')
+}
+function mover_quartas_v() {
+    quartas.style.display = 'none'
+    oitavas.style.display = 'flex'
+    botao_avancar.setAttribute('onclick', 'moverdireita()')
+}
+function mover_semi_v() {
+    semi.style.display = 'none'
+    quartas.style.display = 'flex'
+    botao_avancar.setAttribute('onclick', 'mover_semi_a()')
+    botao_voltar.setAttribute('onclick', 'mover_quartas_v()')
+}
+function mover_final_v() {
+    final.style.display = 'none'
+    semi.style.display = 'flex'
+    botao_voltar.setAttribute('onclick', 'mover_semi_v()')
+    botao_avancar.setAttribute('onclick', 'mover_semi_a()')
 }
