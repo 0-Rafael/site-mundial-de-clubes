@@ -154,10 +154,10 @@ table {
     width: 400px;
     height: 20px;
 }
-#avancar, #voltar {
+/* #avancar, #voltar {
     cursor: pointer;
     display: flex;
-    /* background-image: url("../IMGS/11391216-icone-de-seta-amarela-para-a-direita-vetor.jpgS"); */
+    background-image: url("../IMGS/11391216-icone-de-seta-amarela-para-a-direita-vetor.jpgS");
     background-color: slateblue;
     border: 10px;
     border-radius: 10px;
@@ -173,7 +173,7 @@ table {
 }
 #avancar:hover, #voltar:hover {
     background-color: rgb(50, 37, 133);
-}
+} */
 /* #btnnn {
     display: flex;
     justify-content: space-between;
@@ -202,4 +202,11 @@ table {
     justify-content: center;
     cursor: pointer;
     align-items: center;
+}
+#voltar {
+    margin-right: 340px;
+    margin-bottom: 20px;
+}
+#avancar {
+    margin-bottom: 20px;
 }
