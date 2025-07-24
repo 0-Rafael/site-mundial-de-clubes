@@ -6,6 +6,8 @@ body {
     background-color: #151514;
     color: goldenrod;
     height: 100vh;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 #links {
     display: flex;
@@ -209,4 +211,7 @@ table {
 }
 #avancar {
     margin-bottom: 20px;
+}
+main {
+    background-color: rgb(61, 60, 60);
 }
