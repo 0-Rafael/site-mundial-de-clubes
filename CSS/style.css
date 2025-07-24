@@ -119,7 +119,7 @@ table tr td {
 }
 #tabelas {
     position: absolute;
-    top: 135%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
