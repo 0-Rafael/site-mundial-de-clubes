@@ -210,10 +210,19 @@ table {
 }
 #voltar {
     margin-right: 340px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    padding: 5px;
+    border-radius: 10px;
 }
 #avancar {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    padding: 5px;
+    border-radius: 10px;
+}
+#voltar:hover, #avancar:hover {
+    background-color: rgb(37, 32, 32);
 }
 main {
     background-color: rgb(61, 60, 60);
