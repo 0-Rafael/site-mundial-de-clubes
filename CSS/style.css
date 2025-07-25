@@ -6,8 +6,8 @@ body {
     background-color: #151514;
     color: goldenrod;
     height: 100vh;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 #links {
     display: flex;
@@ -19,6 +19,8 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 nav ul {
     display: flex;
@@ -47,7 +49,8 @@ nav ul li a:hover{
 }
 #Taca h2 {
     position: relative;
-    left: -265px;
+    /* left: -25px; */
+    font-size: 30px;
 }
 #Taca img {
     max-width: 40%;
@@ -214,4 +217,6 @@ table {
 }
 main {
     background-color: rgb(61, 60, 60);
+    padding-top: 10px;
+    
 }
