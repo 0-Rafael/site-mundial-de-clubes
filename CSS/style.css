@@ -227,5 +227,5 @@ main {
 }
 #results {
     height: 400px;
-    position: absolute;
+    /* position: absolute; */
 }
