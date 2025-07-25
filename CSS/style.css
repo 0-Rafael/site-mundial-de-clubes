@@ -130,7 +130,7 @@ table tr td {
 }
 #fase {
     position: absolute;
-    top: 12%;
+    top: 14%;
     left: 45%;    
 }
 td {
@@ -219,5 +219,12 @@ main {
     background-color: rgb(61, 60, 60);
     padding-top: 10px;
     margin-bottom: 10px;
-
+    max-width: 800px;
+    height: 700px;
+    position: relative;
+    left: 150px;
+    border-radius: 15px;
+}
+#results {
+    height: 400px;
 }
