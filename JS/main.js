@@ -7,9 +7,9 @@ const quartas = document.getElementById('quartas');
 const oitavas = document.getElementById('oitavas');
 const semi = document.getElementById("semi");
 const final = document.getElementById("final");
-const botao_avancar = document.getElementById("avancar")
-const botao_voltar = document.getElementById("voltar")
-
+const botao_avancar = document.getElementById("avancar");
+const botao_voltar = document.getElementById("voltar");
+const tamanho = document.getElementById('results');
 function mudarDisplay() {
     formUm.style.display = 'none';
     formDois.style.display = 'block';
@@ -39,6 +39,7 @@ function moverdireita() {
     quartas.style.display = 'flex'
     botao_avancar.setAttribute('onclick', 'mover_quartas_a()')
     botao_voltar.setAttribute('onclick', 'mover_quartas_v()')
+    tamanho.style.height = '300px'
 }
 
 function moveresquerda() {
@@ -60,6 +61,7 @@ function mover_quartas_v() {
     quartas.style.display = 'none'
     oitavas.style.display = 'flex'
     botao_avancar.setAttribute('onclick', 'moverdireita()')
+    tamanho.style.height = '500px'
 }
 function mover_semi_v() {
     semi.style.display = 'none'
