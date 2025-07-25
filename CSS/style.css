@@ -245,3 +245,12 @@ main {
     display: flex;
     justify-content: center;
 }
+#gols {
+    position: relative;
+    left: -300px;
+}
+#Artilheiros {
+    position: relative;
+    left: -200px;
+    padding-bottom: 15px;
+}
