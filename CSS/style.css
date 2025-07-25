@@ -219,10 +219,10 @@ main {
     background-color: rgb(61, 60, 60);
     padding-top: 10px;
     margin-bottom: 10px;
-    max-width: 800px;
+    max-width: 600px;
     height: 700px;
     position: relative;
-    left: 150px;
+    left: 160px;
     border-radius: 15px;
 }
 #results {
