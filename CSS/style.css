@@ -146,11 +146,6 @@ td {
 #numero_ver {
     background-color: #ff0000;
 }
-/* #oitavas, #quartas, #semi, #final{
-    display: flex;
-    justify-content: center;
-} */
-
 #oitavas table, #quartas table {
     width: 400px;
     height: 20px;
@@ -159,34 +154,6 @@ table {
     width: 400px;
     height: 20px;
 }
-/* #avancar, #voltar {
-    cursor: pointer;
-    display: flex;
-    background-image: url("../IMGS/11391216-icone-de-seta-amarela-para-a-direita-vetor.jpgS");
-    background-color: slateblue;
-    border: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
-    transition: background-color 0.3s, color 0.3s;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    
-}
-#avancar:hover, #voltar:hover {
-    background-color: rgb(50, 37, 133);
-} */
-/* #btnnn {
-    display: flex;
-    justify-content: space-between;
-}
-#botao1 {
-    position: relative;
-    left: ;
-} */
 #quartas, #semi, #final {
     display: none;
     justify-content: center;
@@ -242,6 +209,11 @@ main {
     font-size: 40px;
 }
 #videos {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
+}
+header h1 {
+    font-family: 'Playfair Display';
+    font-weight: 800;
 }
