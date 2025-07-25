@@ -237,3 +237,11 @@ main {
 #results {
     height: 400px;
 }
+#titulo_v {
+    text-align: center;
+    font-size: 40px;
+}
+#videos {
+    display: flex;
+    justify-content: center;
+}
