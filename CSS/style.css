@@ -6,8 +6,8 @@ body {
     background-color: #151514;
     color: goldenrod;
     height: 100vh;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 #links {
     display: flex;
@@ -218,6 +218,6 @@ table {
 main {
     background-color: rgb(61, 60, 60);
     padding-top: 10px;
-    margin-bottom: 10px;
-
+    height: 70vh;
+    width: 100vh;
 }
