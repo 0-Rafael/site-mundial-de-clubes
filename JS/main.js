@@ -39,39 +39,44 @@ function moverdireita() {
     quartas.style.display = 'flex'
     botao_avancar.setAttribute('onclick', 'mover_quartas_a()')
     botao_voltar.setAttribute('onclick', 'mover_quartas_v()')
-    tamanho.style.height = '300px'
+    tamanho.style.height = '250px'
 }
 
 function moveresquerda() {
     oitavas.style.display = 'flex'
+    tamanho.style.height = '400px'
 }
 function mover_quartas_a() {
     quartas.style.display = 'none'
     semi.style.display = 'flex'
     botao_avancar.setAttribute('onclick', 'mover_semi_a()')
     botao_voltar.setAttribute('onclick', 'mover_semi_v()')
+    tamanho.style.height = '180px'
 }
 
 function mover_semi_a() {
     semi.style.display = 'none'
     final.style.display = 'flex'
     botao_voltar.setAttribute('onclick', 'mover_final_v()')
+    tamanho.style.height = '140px'
 }
 function mover_quartas_v() {
     quartas.style.display = 'none'
     oitavas.style.display = 'flex'
     botao_avancar.setAttribute('onclick', 'moverdireita()')
-    tamanho.style.height = '500px'
+    tamanho.style.height = '400px'
 }
 function mover_semi_v() {
     semi.style.display = 'none'
     quartas.style.display = 'flex'
     botao_avancar.setAttribute('onclick', 'mover_quartas_a()')
     botao_voltar.setAttribute('onclick', 'mover_quartas_v()')
+    tamanho.style.height = '250px'
 }
 function mover_final_v() {
     final.style.display = 'none'
     semi.style.display = 'flex'
     botao_voltar.setAttribute('onclick', 'mover_semi_v()')
     botao_avancar.setAttribute('onclick', 'mover_semi_a()')
+    tamanho.style.height = '180px'
 }
