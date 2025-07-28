@@ -224,7 +224,7 @@ main {
     padding-bottom: 15px;
 }
 
-header h1 {
+header > h1 {
     font-family: 'Playfair Display';
     font-weight: 800;
 }
