@@ -49,7 +49,6 @@ nav ul li a:hover{
 }
 #Taca h2 {
     position: relative;
-    /* left: -25px; */
     font-size: 30px;
 }
 #Taca img {
@@ -244,22 +243,6 @@ header > h1 {
 #forms-um > div > form > label {
     font-size: 18px;
 }
-/* #pg_videos > div > a {
-    font-family: 'Playfair Display';
-    font-size: 16px;
-    transition: background-color 0.9, color 0.3s, font-style 0.3s, border-radius 0.3s, padding 0.3s, border 0.3s;
-    text-decoration: none;
-    color: rgb(54, 96, 211);
-} */
-/* #pg_videos > div > a:hover {
-    background-color: rgb(143, 108, 20);
-    text-decoration: underline;
-    font-style: italic;
-    border-radius: 10px;
-    padding: 10px;
-    border: 10px;
-    color: black;
-} */
 #pg_videos > #link {
     display: flex;
     margin-top: 20px;
